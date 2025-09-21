@@ -30,7 +30,7 @@ class ImageProcessor:
         if image_extensions is None:
             image_extensions = ['*.png', '*.jpg', '*.jpeg', '*.bmp', '*.tiff']
         
-        print(f"📸 Procesando imágenes personalizadas desde '{data_folder}'...")
+        print(f"Procesando imágenes personalizadas desde '{data_folder}'...")
         
         # Limpiar listas
         self.processed_images = []
